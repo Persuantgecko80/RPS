@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 15px;
+    border-bottom: 4px solid #2980B9;
+}
+
+.rps {
+    margin-top: 20px;
+    color: #2C3E50;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#buttonContainer {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 24px;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(to right, #FF416C, #FF4B2B);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-7px);
+}
+
+#results {
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#playerScore,
+#computerScore,
+#resultTie {
+    font-size: 22px;
+    margin: 15px 0;
+    color: #333;
+}
